@@ -1,0 +1,1818 @@
+|ULA_Seven_Segments_output
+logic <= ULA:inst.logic
+A[0] => ULA:inst.A[0]
+A[1] => ULA:inst.A[1]
+A[2] => ULA:inst.A[2]
+A[3] => ULA:inst.A[3]
+A[4] => ULA:inst.A[4]
+A[5] => ULA:inst.A[5]
+A[6] => ULA:inst.A[6]
+B[0] => ULA:inst.B[0]
+B[1] => ULA:inst.B[1]
+B[2] => ULA:inst.B[2]
+B[3] => ULA:inst.B[3]
+B[4] => ULA:inst.B[4]
+B[5] => ULA:inst.B[5]
+B[6] => ULA:inst.B[6]
+option[0] => ULA:inst.option[0]
+option[1] => ULA:inst.option[1]
+option[2] => ULA:inst.option[2]
+af <= Coversor_Seven_Segments:inst10.af
+bf <= Coversor_Seven_Segments:inst10.bf
+cf <= Coversor_Seven_Segments:inst10.cf
+ef <= Coversor_Seven_Segments:inst10.ef
+gf <= Coversor_Seven_Segments:inst10.gf
+df <= Coversor_Seven_Segments:inst10.df
+ff <= Coversor_Seven_Segments:inst10.ff
+as <= Coversor_Seven_Segments:inst10.as
+bs <= Coversor_Seven_Segments:inst10.bs
+cs <= Coversor_Seven_Segments:inst10.cs
+ds <= Coversor_Seven_Segments:inst10.ds
+es <= Coversor_Seven_Segments:inst10.es
+fs <= Coversor_Seven_Segments:inst10.fs
+gs <= Coversor_Seven_Segments:inst10.gs
+at <= Coversor_Seven_Segments:inst10.at
+bt <= Coversor_Seven_Segments:inst10.bt
+ct <= Coversor_Seven_Segments:inst10.ct
+dt <= Coversor_Seven_Segments:inst10.dt
+et <= Coversor_Seven_Segments:inst10.et
+ft <= Coversor_Seven_Segments:inst10.ft
+gt <= Coversor_Seven_Segments:inst10.gt
+
+
+|ULA_Seven_Segments_output|ULA:inst
+logic <= Seven_bit_Mux:inst.Logic
+A[0] => Seven_bit_Equal_Comparator:inst7.A[0]
+A[0] => Seven_bit_Biggest_Comparator:inst6.A[0]
+A[0] => Seven_bit_Adder:inst1.A[0]
+A[0] => Seven_bit_Subtractor:inst8.A[0]
+A[0] => Seven_bit_Swap_Subtractor:inst3.A[0]
+A[0] => Seven_bit_Xor:inst4.A[0]
+A[0] => Seven_bit_Xnor:inst5.A[0]
+A[1] => Seven_bit_Equal_Comparator:inst7.A[1]
+A[1] => Seven_bit_Biggest_Comparator:inst6.A[1]
+A[1] => Seven_bit_Adder:inst1.A[1]
+A[1] => Seven_bit_Subtractor:inst8.A[1]
+A[1] => Seven_bit_Swap_Subtractor:inst3.A[1]
+A[1] => Seven_bit_Xor:inst4.A[1]
+A[1] => Seven_bit_Xnor:inst5.A[1]
+A[2] => Seven_bit_Equal_Comparator:inst7.A[2]
+A[2] => Seven_bit_Biggest_Comparator:inst6.A[2]
+A[2] => Seven_bit_Adder:inst1.A[2]
+A[2] => Seven_bit_Subtractor:inst8.A[2]
+A[2] => Seven_bit_Swap_Subtractor:inst3.A[2]
+A[2] => Seven_bit_Xor:inst4.A[2]
+A[2] => Seven_bit_Xnor:inst5.A[2]
+A[3] => Seven_bit_Equal_Comparator:inst7.A[3]
+A[3] => Seven_bit_Biggest_Comparator:inst6.A[3]
+A[3] => Seven_bit_Adder:inst1.A[3]
+A[3] => Seven_bit_Subtractor:inst8.A[3]
+A[3] => Seven_bit_Swap_Subtractor:inst3.A[3]
+A[3] => Seven_bit_Xor:inst4.A[3]
+A[3] => Seven_bit_Xnor:inst5.A[3]
+A[4] => Seven_bit_Equal_Comparator:inst7.A[4]
+A[4] => Seven_bit_Biggest_Comparator:inst6.A[4]
+A[4] => Seven_bit_Adder:inst1.A[4]
+A[4] => Seven_bit_Subtractor:inst8.A[4]
+A[4] => Seven_bit_Swap_Subtractor:inst3.A[4]
+A[4] => Seven_bit_Xor:inst4.A[4]
+A[4] => Seven_bit_Xnor:inst5.A[4]
+A[5] => Seven_bit_Equal_Comparator:inst7.A[5]
+A[5] => Seven_bit_Biggest_Comparator:inst6.A[5]
+A[5] => Seven_bit_Adder:inst1.A[5]
+A[5] => Seven_bit_Subtractor:inst8.A[5]
+A[5] => Seven_bit_Swap_Subtractor:inst3.A[5]
+A[5] => Seven_bit_Xor:inst4.A[5]
+A[5] => Seven_bit_Xnor:inst5.A[5]
+A[6] => Seven_bit_Equal_Comparator:inst7.A[6]
+A[6] => Seven_bit_Biggest_Comparator:inst6.A[6]
+A[6] => Seven_bit_Adder:inst1.A[6]
+A[6] => Seven_bit_Subtractor:inst8.A[6]
+A[6] => Seven_bit_Swap_Subtractor:inst3.A[6]
+A[6] => Seven_bit_Xor:inst4.A[6]
+A[6] => Seven_bit_Xnor:inst5.A[6]
+B[0] => Seven_bit_Equal_Comparator:inst7.B[0]
+B[0] => Seven_bit_Biggest_Comparator:inst6.B[0]
+B[0] => Seven_bit_Adder:inst1.B[0]
+B[0] => Seven_bit_Subtractor:inst8.B[0]
+B[0] => Seven_bit_Swap_Subtractor:inst3.B[0]
+B[0] => Seven_bit_Xor:inst4.B[0]
+B[0] => Seven_bit_Xnor:inst5.B[0]
+B[1] => Seven_bit_Equal_Comparator:inst7.B[1]
+B[1] => Seven_bit_Biggest_Comparator:inst6.B[1]
+B[1] => Seven_bit_Adder:inst1.B[1]
+B[1] => Seven_bit_Subtractor:inst8.B[1]
+B[1] => Seven_bit_Swap_Subtractor:inst3.B[1]
+B[1] => Seven_bit_Xor:inst4.B[1]
+B[1] => Seven_bit_Xnor:inst5.B[1]
+B[2] => Seven_bit_Equal_Comparator:inst7.B[2]
+B[2] => Seven_bit_Biggest_Comparator:inst6.B[2]
+B[2] => Seven_bit_Adder:inst1.B[2]
+B[2] => Seven_bit_Subtractor:inst8.B[2]
+B[2] => Seven_bit_Swap_Subtractor:inst3.B[2]
+B[2] => Seven_bit_Xor:inst4.B[2]
+B[2] => Seven_bit_Xnor:inst5.B[2]
+B[3] => Seven_bit_Equal_Comparator:inst7.B[3]
+B[3] => Seven_bit_Biggest_Comparator:inst6.B[3]
+B[3] => Seven_bit_Adder:inst1.B[3]
+B[3] => Seven_bit_Subtractor:inst8.B[3]
+B[3] => Seven_bit_Swap_Subtractor:inst3.B[3]
+B[3] => Seven_bit_Xor:inst4.B[3]
+B[3] => Seven_bit_Xnor:inst5.B[3]
+B[4] => Seven_bit_Equal_Comparator:inst7.B[4]
+B[4] => Seven_bit_Biggest_Comparator:inst6.B[4]
+B[4] => Seven_bit_Adder:inst1.B[4]
+B[4] => Seven_bit_Subtractor:inst8.B[4]
+B[4] => Seven_bit_Swap_Subtractor:inst3.B[4]
+B[4] => Seven_bit_Xor:inst4.B[4]
+B[4] => Seven_bit_Xnor:inst5.B[4]
+B[5] => Seven_bit_Equal_Comparator:inst7.B[5]
+B[5] => Seven_bit_Biggest_Comparator:inst6.B[5]
+B[5] => Seven_bit_Adder:inst1.B[5]
+B[5] => Seven_bit_Subtractor:inst8.B[5]
+B[5] => Seven_bit_Swap_Subtractor:inst3.B[5]
+B[5] => Seven_bit_Xor:inst4.B[5]
+B[5] => Seven_bit_Xnor:inst5.B[5]
+B[6] => Seven_bit_Equal_Comparator:inst7.B[6]
+B[6] => Seven_bit_Biggest_Comparator:inst6.B[6]
+B[6] => Seven_bit_Adder:inst1.B[6]
+B[6] => Seven_bit_Subtractor:inst8.B[6]
+B[6] => Seven_bit_Swap_Subtractor:inst3.B[6]
+B[6] => Seven_bit_Xor:inst4.B[6]
+B[6] => Seven_bit_Xnor:inst5.B[6]
+option[0] => Seven_bit_Mux:inst.C
+option[1] => Seven_bit_Mux:inst.B
+option[2] => Seven_bit_Mux:inst.A
+result[0] <= Seven_bit_Mux:inst.resullt[0]
+result[1] <= Seven_bit_Mux:inst.resullt[1]
+result[2] <= Seven_bit_Mux:inst.resullt[2]
+result[3] <= Seven_bit_Mux:inst.resullt[3]
+result[4] <= Seven_bit_Mux:inst.resullt[4]
+result[5] <= Seven_bit_Mux:inst.resullt[5]
+result[6] <= Seven_bit_Mux:inst.resullt[6]
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst
+Logic <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+S6 => inst11.IN0
+A => inst11.IN1
+A => inst12.IN1
+A => inst3.IN0
+A => And_Mux:inst8.A
+B => inst11.IN2
+B => inst1.IN0
+B => And_Mux:inst5.B
+B => And_Mux:inst6.B
+C => inst4.IN0
+C => inst12.IN3
+C => And_Mux:inst2.C
+C => And_Mux:inst6.C
+S5 => inst12.IN0
+resullt[0] <= Or_Mux:inst9.result[0]
+resullt[1] <= Or_Mux:inst9.result[1]
+resullt[2] <= Or_Mux:inst9.result[2]
+resullt[3] <= Or_Mux:inst9.result[3]
+resullt[4] <= Or_Mux:inst9.result[4]
+resullt[5] <= Or_Mux:inst9.result[5]
+resullt[6] <= Or_Mux:inst9.result[6]
+S0[0] => And_Mux:inst.V[0]
+S0[1] => And_Mux:inst.V[1]
+S0[2] => And_Mux:inst.V[2]
+S0[3] => And_Mux:inst.V[3]
+S0[4] => And_Mux:inst.V[4]
+S0[5] => And_Mux:inst.V[5]
+S0[6] => And_Mux:inst.V[6]
+S1[0] => And_Mux:inst2.V[0]
+S1[1] => And_Mux:inst2.V[1]
+S1[2] => And_Mux:inst2.V[2]
+S1[3] => And_Mux:inst2.V[3]
+S1[4] => And_Mux:inst2.V[4]
+S1[5] => And_Mux:inst2.V[5]
+S1[6] => And_Mux:inst2.V[6]
+S2[0] => And_Mux:inst5.V[0]
+S2[1] => And_Mux:inst5.V[1]
+S2[2] => And_Mux:inst5.V[2]
+S2[3] => And_Mux:inst5.V[3]
+S2[4] => And_Mux:inst5.V[4]
+S2[5] => And_Mux:inst5.V[5]
+S2[6] => And_Mux:inst5.V[6]
+S3[0] => And_Mux:inst6.V[0]
+S3[1] => And_Mux:inst6.V[1]
+S3[2] => And_Mux:inst6.V[2]
+S3[3] => And_Mux:inst6.V[3]
+S3[4] => And_Mux:inst6.V[4]
+S3[5] => And_Mux:inst6.V[5]
+S3[6] => And_Mux:inst6.V[6]
+S4[0] => And_Mux:inst8.V[0]
+S4[1] => And_Mux:inst8.V[1]
+S4[2] => And_Mux:inst8.V[2]
+S4[3] => And_Mux:inst8.V[3]
+S4[4] => And_Mux:inst8.V[4]
+S4[5] => And_Mux:inst8.V[5]
+S4[6] => And_Mux:inst8.V[6]
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst|Or_Mux:inst9
+result[0] <= inst1571.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= inst1744.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= inst1923.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= inst1842.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= inst18221.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= inst18210.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= inst897.DB_MAX_OUTPUT_PORT_TYPE
+B[0] => inst25.IN0
+B[1] => inst24.IN0
+B[2] => inst23.IN0
+B[3] => inst22.IN0
+B[4] => inst.IN0
+B[5] => inst27.IN0
+B[6] => inst26.IN0
+C[0] => inst25.IN1
+C[1] => inst24.IN1
+C[2] => inst23.IN1
+C[3] => inst22.IN1
+C[4] => inst.IN1
+C[5] => inst27.IN1
+C[6] => inst26.IN1
+A[0] => inst25.IN2
+A[1] => inst24.IN2
+A[2] => inst23.IN2
+A[3] => inst22.IN2
+A[4] => inst.IN2
+A[5] => inst27.IN2
+A[6] => inst26.IN2
+E[0] => inst21.IN0
+E[1] => inst20.IN0
+E[2] => inst19.IN0
+E[3] => inst18.IN0
+E[4] => inst17.IN0
+E[5] => inst16.IN0
+E[6] => inst15.IN0
+D[0] => inst21.IN1
+D[1] => inst20.IN1
+D[2] => inst19.IN1
+D[3] => inst18.IN1
+D[4] => inst17.IN1
+D[5] => inst16.IN1
+D[6] => inst15.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst|And_Mux:inst
+S[0] <= And_Bus:inst3.S[0]
+S[1] <= And_Bus:inst3.S[1]
+S[2] <= And_Bus:inst3.S[2]
+S[3] <= And_Bus:inst3.S[3]
+S[4] <= And_Bus:inst3.S[4]
+S[5] <= And_Bus:inst3.S[5]
+S[6] <= And_Bus:inst3.S[6]
+V[0] => And_Bus:inst3.A[0]
+V[1] => And_Bus:inst3.A[1]
+V[2] => And_Bus:inst3.A[2]
+V[3] => And_Bus:inst3.A[3]
+V[4] => And_Bus:inst3.A[4]
+V[5] => And_Bus:inst3.A[5]
+V[6] => And_Bus:inst3.A[6]
+A => inst.IN0
+B => inst.IN1
+C => inst.IN2
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst|And_Mux:inst|And_Bus:inst3
+S[0] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B[0] => inst6.IN0
+B[1] => inst5.IN0
+B[2] => inst4.IN0
+B[3] => inst3.IN0
+B[4] => inst2.IN0
+B[5] => inst1.IN1
+B[6] => inst.IN0
+A[0] => inst6.IN1
+A[1] => inst5.IN1
+A[2] => inst4.IN1
+A[3] => inst3.IN1
+A[4] => inst2.IN1
+A[5] => inst1.IN0
+A[6] => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst|And_Mux:inst2
+S[0] <= And_Bus:inst3.S[0]
+S[1] <= And_Bus:inst3.S[1]
+S[2] <= And_Bus:inst3.S[2]
+S[3] <= And_Bus:inst3.S[3]
+S[4] <= And_Bus:inst3.S[4]
+S[5] <= And_Bus:inst3.S[5]
+S[6] <= And_Bus:inst3.S[6]
+V[0] => And_Bus:inst3.A[0]
+V[1] => And_Bus:inst3.A[1]
+V[2] => And_Bus:inst3.A[2]
+V[3] => And_Bus:inst3.A[3]
+V[4] => And_Bus:inst3.A[4]
+V[5] => And_Bus:inst3.A[5]
+V[6] => And_Bus:inst3.A[6]
+A => inst.IN0
+B => inst.IN1
+C => inst.IN2
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst|And_Mux:inst2|And_Bus:inst3
+S[0] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B[0] => inst6.IN0
+B[1] => inst5.IN0
+B[2] => inst4.IN0
+B[3] => inst3.IN0
+B[4] => inst2.IN0
+B[5] => inst1.IN1
+B[6] => inst.IN0
+A[0] => inst6.IN1
+A[1] => inst5.IN1
+A[2] => inst4.IN1
+A[3] => inst3.IN1
+A[4] => inst2.IN1
+A[5] => inst1.IN0
+A[6] => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst|And_Mux:inst5
+S[0] <= And_Bus:inst3.S[0]
+S[1] <= And_Bus:inst3.S[1]
+S[2] <= And_Bus:inst3.S[2]
+S[3] <= And_Bus:inst3.S[3]
+S[4] <= And_Bus:inst3.S[4]
+S[5] <= And_Bus:inst3.S[5]
+S[6] <= And_Bus:inst3.S[6]
+V[0] => And_Bus:inst3.A[0]
+V[1] => And_Bus:inst3.A[1]
+V[2] => And_Bus:inst3.A[2]
+V[3] => And_Bus:inst3.A[3]
+V[4] => And_Bus:inst3.A[4]
+V[5] => And_Bus:inst3.A[5]
+V[6] => And_Bus:inst3.A[6]
+A => inst.IN0
+B => inst.IN1
+C => inst.IN2
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst|And_Mux:inst5|And_Bus:inst3
+S[0] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B[0] => inst6.IN0
+B[1] => inst5.IN0
+B[2] => inst4.IN0
+B[3] => inst3.IN0
+B[4] => inst2.IN0
+B[5] => inst1.IN1
+B[6] => inst.IN0
+A[0] => inst6.IN1
+A[1] => inst5.IN1
+A[2] => inst4.IN1
+A[3] => inst3.IN1
+A[4] => inst2.IN1
+A[5] => inst1.IN0
+A[6] => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst|And_Mux:inst6
+S[0] <= And_Bus:inst3.S[0]
+S[1] <= And_Bus:inst3.S[1]
+S[2] <= And_Bus:inst3.S[2]
+S[3] <= And_Bus:inst3.S[3]
+S[4] <= And_Bus:inst3.S[4]
+S[5] <= And_Bus:inst3.S[5]
+S[6] <= And_Bus:inst3.S[6]
+V[0] => And_Bus:inst3.A[0]
+V[1] => And_Bus:inst3.A[1]
+V[2] => And_Bus:inst3.A[2]
+V[3] => And_Bus:inst3.A[3]
+V[4] => And_Bus:inst3.A[4]
+V[5] => And_Bus:inst3.A[5]
+V[6] => And_Bus:inst3.A[6]
+A => inst.IN0
+B => inst.IN1
+C => inst.IN2
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst|And_Mux:inst6|And_Bus:inst3
+S[0] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B[0] => inst6.IN0
+B[1] => inst5.IN0
+B[2] => inst4.IN0
+B[3] => inst3.IN0
+B[4] => inst2.IN0
+B[5] => inst1.IN1
+B[6] => inst.IN0
+A[0] => inst6.IN1
+A[1] => inst5.IN1
+A[2] => inst4.IN1
+A[3] => inst3.IN1
+A[4] => inst2.IN1
+A[5] => inst1.IN0
+A[6] => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst|And_Mux:inst8
+S[0] <= And_Bus:inst3.S[0]
+S[1] <= And_Bus:inst3.S[1]
+S[2] <= And_Bus:inst3.S[2]
+S[3] <= And_Bus:inst3.S[3]
+S[4] <= And_Bus:inst3.S[4]
+S[5] <= And_Bus:inst3.S[5]
+S[6] <= And_Bus:inst3.S[6]
+V[0] => And_Bus:inst3.A[0]
+V[1] => And_Bus:inst3.A[1]
+V[2] => And_Bus:inst3.A[2]
+V[3] => And_Bus:inst3.A[3]
+V[4] => And_Bus:inst3.A[4]
+V[5] => And_Bus:inst3.A[5]
+V[6] => And_Bus:inst3.A[6]
+A => inst.IN0
+B => inst.IN1
+C => inst.IN2
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Mux:inst|And_Mux:inst8|And_Bus:inst3
+S[0] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B[0] => inst6.IN0
+B[1] => inst5.IN0
+B[2] => inst4.IN0
+B[3] => inst3.IN0
+B[4] => inst2.IN0
+B[5] => inst1.IN1
+B[6] => inst.IN0
+A[0] => inst6.IN1
+A[1] => inst5.IN1
+A[2] => inst4.IN1
+A[3] => inst3.IN1
+A[4] => inst2.IN1
+A[5] => inst1.IN0
+A[6] => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Equal_Comparator:inst7
+Equals <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Equal_Comparator:inst5.A
+A[1] => Equal_Comparator:inst6.A
+A[2] => Equal_Comparator:inst7.A
+A[3] => Equal_Comparator:inst4.A
+A[4] => Equal_Comparator:inst3.A
+A[5] => Equal_Comparator:inst2.A
+A[6] => Equal_Comparator:inst.A
+B[0] => Equal_Comparator:inst5.B
+B[1] => Equal_Comparator:inst6.B
+B[2] => Equal_Comparator:inst7.B
+B[3] => Equal_Comparator:inst4.B
+B[4] => Equal_Comparator:inst3.B
+B[5] => Equal_Comparator:inst2.B
+B[6] => Equal_Comparator:inst.B
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Equal_Comparator:inst7|Equal_Comparator:inst5
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Equal_Comparator:inst7|Equal_Comparator:inst7
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Equal_Comparator:inst7|Equal_Comparator:inst6
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Equal_Comparator:inst7|Equal_Comparator:inst4
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Equal_Comparator:inst7|Equal_Comparator:inst2
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Equal_Comparator:inst7|Equal_Comparator:inst3
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Equal_Comparator:inst7|Equal_Comparator:inst
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6
+Biggest <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Seven_bit_Equal_Comparator:inst2.A[0]
+A[0] => Seven_bit_Subtractor:inst6.A[0]
+A[1] => Seven_bit_Equal_Comparator:inst2.A[1]
+A[1] => Seven_bit_Subtractor:inst6.A[1]
+A[2] => Seven_bit_Equal_Comparator:inst2.A[2]
+A[2] => Seven_bit_Subtractor:inst6.A[2]
+A[3] => Seven_bit_Equal_Comparator:inst2.A[3]
+A[3] => Seven_bit_Subtractor:inst6.A[3]
+A[4] => Seven_bit_Equal_Comparator:inst2.A[4]
+A[4] => Seven_bit_Subtractor:inst6.A[4]
+A[5] => Seven_bit_Equal_Comparator:inst2.A[5]
+A[5] => Seven_bit_Subtractor:inst6.A[5]
+A[6] => Seven_bit_Equal_Comparator:inst2.A[6]
+A[6] => Seven_bit_Subtractor:inst6.A[6]
+A[6] => inst.IN0
+B[0] => Seven_bit_Equal_Comparator:inst2.B[0]
+B[0] => Seven_bit_Subtractor:inst6.B[0]
+B[1] => Seven_bit_Equal_Comparator:inst2.B[1]
+B[1] => Seven_bit_Subtractor:inst6.B[1]
+B[2] => Seven_bit_Equal_Comparator:inst2.B[2]
+B[2] => Seven_bit_Subtractor:inst6.B[2]
+B[3] => Seven_bit_Equal_Comparator:inst2.B[3]
+B[3] => Seven_bit_Subtractor:inst6.B[3]
+B[4] => Seven_bit_Equal_Comparator:inst2.B[4]
+B[4] => Seven_bit_Subtractor:inst6.B[4]
+B[5] => Seven_bit_Equal_Comparator:inst2.B[5]
+B[5] => Seven_bit_Subtractor:inst6.B[5]
+B[6] => Seven_bit_Equal_Comparator:inst2.B[6]
+B[6] => Seven_bit_Subtractor:inst6.B[6]
+B[6] => inst4.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Equal_Comparator:inst2
+Equals <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Equal_Comparator:inst5.A
+A[1] => Equal_Comparator:inst6.A
+A[2] => Equal_Comparator:inst7.A
+A[3] => Equal_Comparator:inst4.A
+A[4] => Equal_Comparator:inst3.A
+A[5] => Equal_Comparator:inst2.A
+A[6] => Equal_Comparator:inst.A
+B[0] => Equal_Comparator:inst5.B
+B[1] => Equal_Comparator:inst6.B
+B[2] => Equal_Comparator:inst7.B
+B[3] => Equal_Comparator:inst4.B
+B[4] => Equal_Comparator:inst3.B
+B[5] => Equal_Comparator:inst2.B
+B[6] => Equal_Comparator:inst.B
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Equal_Comparator:inst2|Equal_Comparator:inst5
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Equal_Comparator:inst2|Equal_Comparator:inst7
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Equal_Comparator:inst2|Equal_Comparator:inst6
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Equal_Comparator:inst2|Equal_Comparator:inst4
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Equal_Comparator:inst2|Equal_Comparator:inst2
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Equal_Comparator:inst2|Equal_Comparator:inst3
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Equal_Comparator:inst2|Equal_Comparator:inst
+S <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+B => inst2.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Subtractor:inst6
+overflow <= Subtraction_Overflow:inst18.overflow
+A[0] => Full_Subtractor:inst.A
+A[1] => Full_Subtractor:inst9.A
+A[2] => Full_Subtractor:inst10.A
+A[3] => Full_Subtractor:inst11.A
+A[4] => Full_Subtractor:inst12.A
+A[5] => Full_Subtractor:inst13.A
+A[6] => Subtraction_Overflow:inst18.A
+A[6] => Full_Subtractor:inst14.A
+B[0] => Full_Subtractor:inst.B
+B[1] => Full_Subtractor:inst9.B
+B[2] => Full_Subtractor:inst10.B
+B[3] => Full_Subtractor:inst11.B
+B[4] => Full_Subtractor:inst12.B
+B[5] => Full_Subtractor:inst13.B
+B[6] => Subtraction_Overflow:inst18.B
+B[6] => Full_Subtractor:inst14.B
+Sub[0] <= S[0].DB_MAX_OUTPUT_PORT_TYPE
+Sub[1] <= S[1].DB_MAX_OUTPUT_PORT_TYPE
+Sub[2] <= S[2].DB_MAX_OUTPUT_PORT_TYPE
+Sub[3] <= S[3].DB_MAX_OUTPUT_PORT_TYPE
+Sub[4] <= S[4].DB_MAX_OUTPUT_PORT_TYPE
+Sub[5] <= S[5].DB_MAX_OUTPUT_PORT_TYPE
+Sub[6] <= S[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Subtractor:inst6|Subtraction_Overflow:inst18
+overflow <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst4.IN0
+B => inst5.IN0
+B => inst.IN1
+S => inst6.IN0
+S => inst.IN2
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Subtractor:inst6|Full_Subtractor:inst14
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Subtractor:inst6|Full_Subtractor:inst13
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Subtractor:inst6|Full_Subtractor:inst12
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Subtractor:inst6|Full_Subtractor:inst11
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Subtractor:inst6|Full_Subtractor:inst10
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Subtractor:inst6|Full_Subtractor:inst9
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Biggest_Comparator:inst6|Seven_bit_Subtractor:inst6|Full_Subtractor:inst
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Adder:inst1
+overflow <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Full_Adder:inst6.A
+A[1] => Full_Adder:inst5.A
+A[2] => Full_Adder:inst4.A
+A[3] => Full_Adder:inst2.A
+A[4] => Full_Adder:inst1.A
+A[5] => Full_Adder:inst.A
+A[6] => Full_Adder:inst3.A
+B[0] => Full_Adder:inst6.B
+B[1] => Full_Adder:inst5.B
+B[2] => Full_Adder:inst4.B
+B[3] => Full_Adder:inst2.B
+B[4] => Full_Adder:inst1.B
+B[5] => Full_Adder:inst.B
+B[6] => Full_Adder:inst3.B
+Sum[0] <= S[0].DB_MAX_OUTPUT_PORT_TYPE
+Sum[1] <= S[1].DB_MAX_OUTPUT_PORT_TYPE
+Sum[2] <= S[2].DB_MAX_OUTPUT_PORT_TYPE
+Sum[3] <= S[3].DB_MAX_OUTPUT_PORT_TYPE
+Sum[4] <= S[4].DB_MAX_OUTPUT_PORT_TYPE
+Sum[5] <= S[5].DB_MAX_OUTPUT_PORT_TYPE
+Sum[6] <= S[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Adder:inst1|Full_Adder:inst
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Adder:inst1|Full_Adder:inst1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Adder:inst1|Full_Adder:inst2
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Adder:inst1|Full_Adder:inst4
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Adder:inst1|Full_Adder:inst5
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Adder:inst1|Full_Adder:inst6
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Adder:inst1|Full_Adder:inst3
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Subtractor:inst8
+overflow <= Subtraction_Overflow:inst18.overflow
+A[0] => Full_Subtractor:inst.A
+A[1] => Full_Subtractor:inst9.A
+A[2] => Full_Subtractor:inst10.A
+A[3] => Full_Subtractor:inst11.A
+A[4] => Full_Subtractor:inst12.A
+A[5] => Full_Subtractor:inst13.A
+A[6] => Subtraction_Overflow:inst18.A
+A[6] => Full_Subtractor:inst14.A
+B[0] => Full_Subtractor:inst.B
+B[1] => Full_Subtractor:inst9.B
+B[2] => Full_Subtractor:inst10.B
+B[3] => Full_Subtractor:inst11.B
+B[4] => Full_Subtractor:inst12.B
+B[5] => Full_Subtractor:inst13.B
+B[6] => Subtraction_Overflow:inst18.B
+B[6] => Full_Subtractor:inst14.B
+Sub[0] <= S[0].DB_MAX_OUTPUT_PORT_TYPE
+Sub[1] <= S[1].DB_MAX_OUTPUT_PORT_TYPE
+Sub[2] <= S[2].DB_MAX_OUTPUT_PORT_TYPE
+Sub[3] <= S[3].DB_MAX_OUTPUT_PORT_TYPE
+Sub[4] <= S[4].DB_MAX_OUTPUT_PORT_TYPE
+Sub[5] <= S[5].DB_MAX_OUTPUT_PORT_TYPE
+Sub[6] <= S[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Subtractor:inst8|Subtraction_Overflow:inst18
+overflow <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst4.IN0
+B => inst5.IN0
+B => inst.IN1
+S => inst6.IN0
+S => inst.IN2
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Subtractor:inst8|Full_Subtractor:inst14
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Subtractor:inst8|Full_Subtractor:inst13
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Subtractor:inst8|Full_Subtractor:inst12
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Subtractor:inst8|Full_Subtractor:inst11
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Subtractor:inst8|Full_Subtractor:inst10
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Subtractor:inst8|Full_Subtractor:inst9
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Subtractor:inst8|Full_Subtractor:inst
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst4.IN1
+B => inst.IN1
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Swap_Subtractor:inst3
+overflow <= Swap_Subtraction_Overflow:inst7.overflow
+A[0] => Full_Swap_Subtractor:inst6.A
+A[1] => Full_Swap_Subtractor:inst5.A
+A[2] => Full_Swap_Subtractor:inst4.A
+A[3] => Full_Swap_Subtractor:inst3.A
+A[4] => Full_Swap_Subtractor:inst2.A
+A[5] => Full_Swap_Subtractor:inst1.A
+A[6] => Swap_Subtraction_Overflow:inst7.A
+A[6] => Full_Swap_Subtractor:inst.A
+B[0] => Full_Swap_Subtractor:inst6.B
+B[1] => Full_Swap_Subtractor:inst5.B
+B[2] => Full_Swap_Subtractor:inst4.B
+B[3] => Full_Swap_Subtractor:inst3.B
+B[4] => Full_Swap_Subtractor:inst2.B
+B[5] => Full_Swap_Subtractor:inst1.B
+B[6] => Swap_Subtraction_Overflow:inst7.B
+B[6] => Full_Swap_Subtractor:inst.B
+Sub[0] <= S[0].DB_MAX_OUTPUT_PORT_TYPE
+Sub[1] <= S[1].DB_MAX_OUTPUT_PORT_TYPE
+Sub[2] <= S[2].DB_MAX_OUTPUT_PORT_TYPE
+Sub[3] <= S[3].DB_MAX_OUTPUT_PORT_TYPE
+Sub[4] <= S[4].DB_MAX_OUTPUT_PORT_TYPE
+Sub[5] <= S[5].DB_MAX_OUTPUT_PORT_TYPE
+Sub[6] <= S[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Swap_Subtractor:inst3|Swap_Subtraction_Overflow:inst7
+overflow <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S => inst6.IN0
+S => inst.IN2
+B => inst1.IN1
+B => inst5.IN0
+A => inst4.IN0
+A => inst.IN0
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Swap_Subtractor:inst3|Full_Swap_Subtractor:inst
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst4.IN1
+A => inst.IN0
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Swap_Subtractor:inst3|Full_Swap_Subtractor:inst1
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst4.IN1
+A => inst.IN0
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Swap_Subtractor:inst3|Full_Swap_Subtractor:inst2
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst4.IN1
+A => inst.IN0
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Swap_Subtractor:inst3|Full_Swap_Subtractor:inst3
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst4.IN1
+A => inst.IN0
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Swap_Subtractor:inst3|Full_Swap_Subtractor:inst4
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst4.IN1
+A => inst.IN0
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Swap_Subtractor:inst3|Full_Swap_Subtractor:inst5
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst4.IN1
+A => inst.IN0
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Swap_Subtractor:inst3|Full_Swap_Subtractor:inst6
+Carry <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst4.IN1
+A => inst.IN0
+Cin => inst5.IN1
+Cin => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xor:inst4
+Xor[0] <= S[0].DB_MAX_OUTPUT_PORT_TYPE
+Xor[1] <= S[1].DB_MAX_OUTPUT_PORT_TYPE
+Xor[2] <= S[2].DB_MAX_OUTPUT_PORT_TYPE
+Xor[3] <= S[3].DB_MAX_OUTPUT_PORT_TYPE
+Xor[4] <= S[4].DB_MAX_OUTPUT_PORT_TYPE
+Xor[5] <= S[5].DB_MAX_OUTPUT_PORT_TYPE
+Xor[6] <= S[6].DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Xor_entry:inst12.A
+A[1] => Xor_entry:inst.A
+A[2] => Xor_entry:inst7.A
+A[3] => Xor_entry:inst8.A
+A[4] => Xor_entry:inst9.A
+A[5] => Xor_entry:inst10.A
+A[6] => Xor_entry:inst11.A
+B[0] => Xor_entry:inst12.B
+B[1] => Xor_entry:inst.B
+B[2] => Xor_entry:inst7.B
+B[3] => Xor_entry:inst8.B
+B[4] => Xor_entry:inst9.B
+B[5] => Xor_entry:inst10.B
+B[6] => Xor_entry:inst11.B
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xor:inst4|Xor_entry:inst7
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xor:inst4|Xor_entry:inst8
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xor:inst4|Xor_entry:inst9
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xor:inst4|Xor_entry:inst10
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xor:inst4|Xor_entry:inst11
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xor:inst4|Xor_entry:inst12
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xor:inst4|Xor_entry:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xnor:inst5
+Sub[0] <= S[0].DB_MAX_OUTPUT_PORT_TYPE
+Sub[1] <= S[1].DB_MAX_OUTPUT_PORT_TYPE
+Sub[2] <= S[2].DB_MAX_OUTPUT_PORT_TYPE
+Sub[3] <= S[3].DB_MAX_OUTPUT_PORT_TYPE
+Sub[4] <= S[4].DB_MAX_OUTPUT_PORT_TYPE
+Sub[5] <= S[5].DB_MAX_OUTPUT_PORT_TYPE
+Sub[6] <= S[6].DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Xnor_entry:inst12.A
+A[1] => Xnor_entry:inst.A
+A[2] => Xnor_entry:inst7.A
+A[3] => Xnor_entry:inst8.A
+A[4] => Xnor_entry:inst9.A
+A[5] => Xnor_entry:inst10.A
+A[6] => Xnor_entry:inst11.A
+B[0] => Xnor_entry:inst12.B
+B[1] => Xnor_entry:inst.B
+B[2] => Xnor_entry:inst7.B
+B[3] => Xnor_entry:inst8.B
+B[4] => Xnor_entry:inst9.B
+B[5] => Xnor_entry:inst10.B
+B[6] => Xnor_entry:inst11.B
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xnor:inst5|Xnor_entry:inst12
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xnor:inst5|Xnor_entry:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xnor:inst5|Xnor_entry:inst7
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xnor:inst5|Xnor_entry:inst8
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xnor:inst5|Xnor_entry:inst9
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xnor:inst5|Xnor_entry:inst10
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|ULA:inst|Seven_bit_Xnor:inst5|Xnor_entry:inst11
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+B => inst.IN1
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10
+af <= Display_Signal:inst5.a
+A[0] => BCD_Conversor:inst.A[0]
+A[1] => BCD_Conversor:inst.A[1]
+A[2] => BCD_Conversor:inst.A[2]
+A[3] => BCD_Conversor:inst.A[3]
+A[4] => BCD_Conversor:inst.A[4]
+A[5] => BCD_Conversor:inst.A[5]
+A[6] => BCD_Conversor:inst.A[6]
+bf <= Display_Signal:inst5.b
+cf <= Display_Signal:inst5.c
+ef <= Display_Signal:inst5.e
+gf <= Display_Signal:inst5.g
+df <= Display_Signal:inst5.d
+ff <= Display_Signal:inst5.f
+as <= Seven_Segment_Display:inst7.a
+bs <= Seven_Segment_Display:inst7.b
+cs <= Seven_Segment_Display:inst7.c
+ds <= Seven_Segment_Display:inst7.d
+es <= Seven_Segment_Display:inst7.e
+fs <= Seven_Segment_Display:inst7.f
+gs <= Seven_Segment_Display:inst7.g
+at <= Seven_Segment_Display:inst6.a
+bt <= Seven_Segment_Display:inst6.b
+ct <= Seven_Segment_Display:inst6.c
+dt <= Seven_Segment_Display:inst6.d
+et <= Seven_Segment_Display:inst6.e
+ft <= Seven_Segment_Display:inst6.f
+gt <= Seven_Segment_Display:inst6.g
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|Display_Signal:inst5
+a <= S1.DB_MAX_OUTPUT_PORT_TYPE
+S1 => a.DATAIN
+S1 => b.DATAIN
+S1 => c.DATAIN
+S1 => d.DATAIN
+S1 => e.DATAIN
+S1 => f.DATAIN
+S1 => inst1.IN0
+b <= S1.DB_MAX_OUTPUT_PORT_TYPE
+c <= S1.DB_MAX_OUTPUT_PORT_TYPE
+d <= S1.DB_MAX_OUTPUT_PORT_TYPE
+e <= S1.DB_MAX_OUTPUT_PORT_TYPE
+f <= S1.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst
+sinal <= A[6].DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Twos_Complement:inst2.A[0]
+A[0] => inst14.IN0
+A[0] => inst14.IN1
+A[1] => Twos_Complement:inst2.A[1]
+A[1] => inst13.IN0
+A[1] => inst13.IN1
+A[2] => Twos_Complement:inst2.A[2]
+A[2] => inst10.IN0
+A[2] => inst10.IN1
+A[3] => Twos_Complement:inst2.A[3]
+A[3] => inst11.IN0
+A[3] => inst11.IN1
+A[4] => Twos_Complement:inst2.A[4]
+A[4] => inst12.IN0
+A[4] => inst12.IN1
+A[5] => Twos_Complement:inst2.A[5]
+A[5] => inst15.IN0
+A[5] => inst15.IN1
+A[6] => sinal.DATAIN
+A[6] => Mux_BCD:inst741.C
+A[6] => Twos_Complement:inst2.A[6]
+A[6] => inst17.IN0
+A[6] => inst17.IN1
+result[0] <= Mux_BCD:inst741.result[0]
+result[1] <= Mux_BCD:inst741.result[1]
+result[2] <= Mux_BCD:inst741.result[2]
+result[3] <= Mux_BCD:inst741.result[3]
+result[4] <= Mux_BCD:inst741.result[4]
+result[5] <= Mux_BCD:inst741.result[5]
+result[6] <= Mux_BCD:inst741.result[6]
+result[7] <= Mux_BCD:inst741.result[7]
+result[8] <= Mux_BCD:inst741.result[8]
+result[9] <= Mux_BCD:inst741.result[9]
+result[10] <= Mux_BCD:inst741.result[10]
+result[11] <= Mux_BCD:inst741.result[11]
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Mux_BCD:inst741
+result[0] <= Or_Mux_BCD:inst3.result[0]
+result[1] <= Or_Mux_BCD:inst3.result[1]
+result[2] <= Or_Mux_BCD:inst3.result[2]
+result[3] <= Or_Mux_BCD:inst3.result[3]
+result[4] <= Or_Mux_BCD:inst3.result[4]
+result[5] <= Or_Mux_BCD:inst3.result[5]
+result[6] <= Or_Mux_BCD:inst3.result[6]
+result[7] <= Or_Mux_BCD:inst3.result[7]
+result[8] <= Or_Mux_BCD:inst3.result[8]
+result[9] <= Or_Mux_BCD:inst3.result[9]
+result[10] <= Or_Mux_BCD:inst3.result[10]
+result[11] <= Or_Mux_BCD:inst3.result[11]
+C => And_Mux_BCD:inst.A
+C => inst2.IN0
+A[0] => And_Mux_BCD:inst.V[0]
+A[1] => And_Mux_BCD:inst.V[1]
+A[2] => And_Mux_BCD:inst.V[2]
+A[3] => And_Mux_BCD:inst.V[3]
+A[4] => And_Mux_BCD:inst.V[4]
+A[5] => And_Mux_BCD:inst.V[5]
+A[6] => And_Mux_BCD:inst.V[6]
+A[7] => And_Mux_BCD:inst.V[7]
+A[8] => And_Mux_BCD:inst.V[8]
+A[9] => And_Mux_BCD:inst.V[9]
+A[10] => And_Mux_BCD:inst.V[10]
+A[11] => And_Mux_BCD:inst.V[11]
+B[0] => And_Mux_BCD:inst1.V[0]
+B[1] => And_Mux_BCD:inst1.V[1]
+B[2] => And_Mux_BCD:inst1.V[2]
+B[3] => And_Mux_BCD:inst1.V[3]
+B[4] => And_Mux_BCD:inst1.V[4]
+B[5] => And_Mux_BCD:inst1.V[5]
+B[6] => And_Mux_BCD:inst1.V[6]
+B[7] => And_Mux_BCD:inst1.V[7]
+B[8] => And_Mux_BCD:inst1.V[8]
+B[9] => And_Mux_BCD:inst1.V[9]
+B[10] => And_Mux_BCD:inst1.V[10]
+B[11] => And_Mux_BCD:inst1.V[11]
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Mux_BCD:inst741|Or_Mux_BCD:inst3
+result[0] <= inst1571.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= inst1744.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= inst1923.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= inst1842.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= inst18221.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= inst18210.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= inst897.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => inst1571.IN0
+A[1] => inst1744.IN0
+A[2] => inst1923.IN0
+A[3] => inst1842.IN0
+A[4] => inst18221.IN0
+A[5] => inst18210.IN0
+A[6] => inst897.IN0
+A[7] => inst.IN1
+A[8] => inst1.IN1
+A[9] => inst2.IN1
+A[10] => inst3.IN1
+A[11] => inst4.IN1
+B[0] => inst1571.IN1
+B[1] => inst1744.IN1
+B[2] => inst1923.IN1
+B[3] => inst1842.IN1
+B[4] => inst18221.IN1
+B[5] => inst18210.IN1
+B[6] => inst897.IN1
+B[7] => inst.IN0
+B[8] => inst1.IN0
+B[9] => inst2.IN0
+B[10] => inst3.IN0
+B[11] => inst4.IN0
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Mux_BCD:inst741|And_Mux_BCD:inst
+S[0] <= And_Eleven_bit:inst14.S[0]
+S[1] <= And_Eleven_bit:inst14.S[1]
+S[2] <= And_Eleven_bit:inst14.S[2]
+S[3] <= And_Eleven_bit:inst14.S[3]
+S[4] <= And_Eleven_bit:inst14.S[4]
+S[5] <= And_Eleven_bit:inst14.S[5]
+S[6] <= And_Eleven_bit:inst14.S[6]
+S[7] <= And_Eleven_bit:inst14.S[7]
+S[8] <= And_Eleven_bit:inst14.S[8]
+S[9] <= And_Eleven_bit:inst14.S[9]
+S[10] <= And_Eleven_bit:inst14.S[10]
+S[11] <= And_Eleven_bit:inst14.S[11]
+V[0] => And_Eleven_bit:inst14.A[0]
+V[1] => And_Eleven_bit:inst14.A[1]
+V[2] => And_Eleven_bit:inst14.A[2]
+V[3] => And_Eleven_bit:inst14.A[3]
+V[4] => And_Eleven_bit:inst14.A[4]
+V[5] => And_Eleven_bit:inst14.A[5]
+V[6] => And_Eleven_bit:inst14.A[6]
+V[7] => And_Eleven_bit:inst14.A[7]
+V[8] => And_Eleven_bit:inst14.A[8]
+V[9] => And_Eleven_bit:inst14.A[9]
+V[10] => And_Eleven_bit:inst14.A[10]
+V[11] => And_Eleven_bit:inst14.A[11]
+A => inst7.IN0
+A => inst7.IN1
+A => inst8.IN0
+A => inst8.IN1
+A => inst6.IN0
+A => inst6.IN1
+A => inst5.IN0
+A => inst5.IN1
+A => inst2.IN0
+A => inst2.IN1
+A => inst1.IN0
+A => inst1.IN1
+A => inst4.IN0
+A => inst4.IN1
+A => inst10.IN0
+A => inst10.IN1
+A => inst11.IN0
+A => inst11.IN1
+A => inst9.IN0
+A => inst9.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst12.IN0
+A => inst12.IN1
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Mux_BCD:inst741|And_Mux_BCD:inst|And_Eleven_bit:inst14
+S[0] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+S[8] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+S[9] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S[10] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+S[11] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+B[0] => inst6.IN0
+B[1] => inst5.IN0
+B[2] => inst4.IN0
+B[3] => inst3.IN0
+B[4] => inst2.IN0
+B[5] => inst1.IN1
+B[6] => inst.IN0
+B[7] => inst11.IN1
+B[8] => inst9.IN1
+B[9] => inst10.IN1
+B[10] => inst12.IN1
+B[11] => inst8.IN1
+A[0] => inst6.IN1
+A[1] => inst5.IN1
+A[2] => inst4.IN1
+A[3] => inst3.IN1
+A[4] => inst2.IN1
+A[5] => inst1.IN0
+A[6] => inst.IN1
+A[7] => inst11.IN0
+A[8] => inst9.IN0
+A[9] => inst10.IN0
+A[10] => inst12.IN0
+A[11] => inst8.IN0
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Mux_BCD:inst741|And_Mux_BCD:inst1
+S[0] <= And_Eleven_bit:inst14.S[0]
+S[1] <= And_Eleven_bit:inst14.S[1]
+S[2] <= And_Eleven_bit:inst14.S[2]
+S[3] <= And_Eleven_bit:inst14.S[3]
+S[4] <= And_Eleven_bit:inst14.S[4]
+S[5] <= And_Eleven_bit:inst14.S[5]
+S[6] <= And_Eleven_bit:inst14.S[6]
+S[7] <= And_Eleven_bit:inst14.S[7]
+S[8] <= And_Eleven_bit:inst14.S[8]
+S[9] <= And_Eleven_bit:inst14.S[9]
+S[10] <= And_Eleven_bit:inst14.S[10]
+S[11] <= And_Eleven_bit:inst14.S[11]
+V[0] => And_Eleven_bit:inst14.A[0]
+V[1] => And_Eleven_bit:inst14.A[1]
+V[2] => And_Eleven_bit:inst14.A[2]
+V[3] => And_Eleven_bit:inst14.A[3]
+V[4] => And_Eleven_bit:inst14.A[4]
+V[5] => And_Eleven_bit:inst14.A[5]
+V[6] => And_Eleven_bit:inst14.A[6]
+V[7] => And_Eleven_bit:inst14.A[7]
+V[8] => And_Eleven_bit:inst14.A[8]
+V[9] => And_Eleven_bit:inst14.A[9]
+V[10] => And_Eleven_bit:inst14.A[10]
+V[11] => And_Eleven_bit:inst14.A[11]
+A => inst7.IN0
+A => inst7.IN1
+A => inst8.IN0
+A => inst8.IN1
+A => inst6.IN0
+A => inst6.IN1
+A => inst5.IN0
+A => inst5.IN1
+A => inst2.IN0
+A => inst2.IN1
+A => inst1.IN0
+A => inst1.IN1
+A => inst4.IN0
+A => inst4.IN1
+A => inst10.IN0
+A => inst10.IN1
+A => inst11.IN0
+A => inst11.IN1
+A => inst9.IN0
+A => inst9.IN1
+A => inst.IN0
+A => inst.IN1
+A => inst12.IN0
+A => inst12.IN1
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Mux_BCD:inst741|And_Mux_BCD:inst1|And_Eleven_bit:inst14
+S[0] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+S[8] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+S[9] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S[10] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+S[11] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+B[0] => inst6.IN0
+B[1] => inst5.IN0
+B[2] => inst4.IN0
+B[3] => inst3.IN0
+B[4] => inst2.IN0
+B[5] => inst1.IN1
+B[6] => inst.IN0
+B[7] => inst11.IN1
+B[8] => inst9.IN1
+B[9] => inst10.IN1
+B[10] => inst12.IN1
+B[11] => inst8.IN1
+A[0] => inst6.IN1
+A[1] => inst5.IN1
+A[2] => inst4.IN1
+A[3] => inst3.IN1
+A[4] => inst2.IN1
+A[5] => inst1.IN0
+A[6] => inst.IN1
+A[7] => inst11.IN0
+A[8] => inst9.IN0
+A[9] => inst10.IN0
+A[10] => inst12.IN0
+A[11] => inst8.IN0
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|bin2bcd:inst84132
+bin[0] => bcd[0].DATAIN
+bin[1] => LessThan5.IN8
+bin[1] => Add5.IN8
+bin[1] => bcd.DATAA
+bin[2] => LessThan3.IN8
+bin[2] => Add3.IN8
+bin[2] => bcd.DATAA
+bin[3] => LessThan2.IN8
+bin[3] => Add2.IN8
+bin[3] => bcd.DATAA
+bin[4] => LessThan1.IN8
+bin[4] => Add1.IN8
+bin[4] => bcd.DATAA
+bin[5] => LessThan0.IN6
+bin[5] => Add0.IN6
+bin[5] => bcd.DATAA
+bin[6] => LessThan0.IN5
+bin[6] => Add0.IN5
+bin[6] => bcd.DATAA
+bin[7] => LessThan0.IN4
+bin[7] => Add0.IN4
+bin[7] => bcd.DATAA
+bcd[0] <= bin[0].DB_MAX_OUTPUT_PORT_TYPE
+bcd[1] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[2] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[3] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[4] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[5] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[6] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[7] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[8] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[9] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[10] <= <GND>
+bcd[11] <= <GND>
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Twos_Complement:inst2
+overflow <= Seven_bit_Adder:inst8.overflow
+A[0] => inst5.IN0
+A[1] => inst4.IN0
+A[2] => inst3.IN0
+A[3] => inst2.IN0
+A[4] => inst1.IN0
+A[5] => inst.IN0
+A[6] => inst6.IN0
+Sum[0] <= Seven_bit_Adder:inst8.Sum[0]
+Sum[1] <= Seven_bit_Adder:inst8.Sum[1]
+Sum[2] <= Seven_bit_Adder:inst8.Sum[2]
+Sum[3] <= Seven_bit_Adder:inst8.Sum[3]
+Sum[4] <= Seven_bit_Adder:inst8.Sum[4]
+Sum[5] <= Seven_bit_Adder:inst8.Sum[5]
+Sum[6] <= Seven_bit_Adder:inst8.Sum[6]
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Twos_Complement:inst2|Seven_bit_Adder:inst8
+overflow <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Full_Adder:inst6.A
+A[1] => Full_Adder:inst5.A
+A[2] => Full_Adder:inst4.A
+A[3] => Full_Adder:inst2.A
+A[4] => Full_Adder:inst1.A
+A[5] => Full_Adder:inst.A
+A[6] => Full_Adder:inst3.A
+B[0] => Full_Adder:inst6.B
+B[1] => Full_Adder:inst5.B
+B[2] => Full_Adder:inst4.B
+B[3] => Full_Adder:inst2.B
+B[4] => Full_Adder:inst1.B
+B[5] => Full_Adder:inst.B
+B[6] => Full_Adder:inst3.B
+Sum[0] <= S[0].DB_MAX_OUTPUT_PORT_TYPE
+Sum[1] <= S[1].DB_MAX_OUTPUT_PORT_TYPE
+Sum[2] <= S[2].DB_MAX_OUTPUT_PORT_TYPE
+Sum[3] <= S[3].DB_MAX_OUTPUT_PORT_TYPE
+Sum[4] <= S[4].DB_MAX_OUTPUT_PORT_TYPE
+Sum[5] <= S[5].DB_MAX_OUTPUT_PORT_TYPE
+Sum[6] <= S[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Twos_Complement:inst2|Seven_bit_Adder:inst8|Full_Adder:inst
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Twos_Complement:inst2|Seven_bit_Adder:inst8|Full_Adder:inst1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Twos_Complement:inst2|Seven_bit_Adder:inst8|Full_Adder:inst2
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Twos_Complement:inst2|Seven_bit_Adder:inst8|Full_Adder:inst4
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Twos_Complement:inst2|Seven_bit_Adder:inst8|Full_Adder:inst5
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Twos_Complement:inst2|Seven_bit_Adder:inst8|Full_Adder:inst6
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|Twos_Complement:inst2|Seven_bit_Adder:inst8|Full_Adder:inst3
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Cin => inst1.IN1
+Cin => inst2.IN1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|BCD_Conversor:inst|bin2bcd:inst1
+bin[0] => bcd[0].DATAIN
+bin[1] => LessThan5.IN8
+bin[1] => Add5.IN8
+bin[1] => bcd.DATAA
+bin[2] => LessThan3.IN8
+bin[2] => Add3.IN8
+bin[2] => bcd.DATAA
+bin[3] => LessThan2.IN8
+bin[3] => Add2.IN8
+bin[3] => bcd.DATAA
+bin[4] => LessThan1.IN8
+bin[4] => Add1.IN8
+bin[4] => bcd.DATAA
+bin[5] => LessThan0.IN6
+bin[5] => Add0.IN6
+bin[5] => bcd.DATAA
+bin[6] => LessThan0.IN5
+bin[6] => Add0.IN5
+bin[6] => bcd.DATAA
+bin[7] => LessThan0.IN4
+bin[7] => Add0.IN4
+bin[7] => bcd.DATAA
+bcd[0] <= bin[0].DB_MAX_OUTPUT_PORT_TYPE
+bcd[1] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[2] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[3] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[4] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[5] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[6] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[7] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[8] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[9] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
+bcd[10] <= <GND>
+bcd[11] <= <GND>
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|Seven_Segment_Display:inst7
+a <= inst31.DB_MAX_OUTPUT_PORT_TYPE
+S1 => inst2.IN0
+S1 => inst19.IN1
+S1 => inst17.IN0
+S1 => inst25.IN2
+S3 => inst2.IN1
+S3 => inst1.IN0
+S3 => inst21.IN0
+S3 => inst7.IN0
+S3 => inst6.IN1
+S3 => inst11.IN0
+S3 => inst23.IN1
+S3 => inst24.IN0
+S2 => inst.IN0
+S2 => inst20.IN0
+S2 => inst3.IN2
+S2 => inst9.IN0
+S2 => inst13.IN0
+S2 => inst14.IN0
+S2 => inst23.IN0
+S4 => inst.IN1
+S4 => inst1.IN1
+S4 => inst3.IN1
+S4 => inst22.IN0
+S4 => inst9.IN2
+b <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA_Seven_Segments_output|Coversor_Seven_Segments:inst10|Seven_Segment_Display:inst6
+a <= inst31.DB_MAX_OUTPUT_PORT_TYPE
+S1 => inst2.IN0
+S1 => inst19.IN1
+S1 => inst17.IN0
+S1 => inst25.IN2
+S3 => inst2.IN1
+S3 => inst1.IN0
+S3 => inst21.IN0
+S3 => inst7.IN0
+S3 => inst6.IN1
+S3 => inst11.IN0
+S3 => inst23.IN1
+S3 => inst24.IN0
+S2 => inst.IN0
+S2 => inst20.IN0
+S2 => inst3.IN2
+S2 => inst9.IN0
+S2 => inst13.IN0
+S2 => inst14.IN0
+S2 => inst23.IN0
+S4 => inst.IN1
+S4 => inst1.IN1
+S4 => inst3.IN1
+S4 => inst22.IN0
+S4 => inst9.IN2
+b <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+

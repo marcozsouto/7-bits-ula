@@ -1,0 +1,142 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 23:13:12  October 03, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ULA_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE EP4CGX150DF31C7
+set_global_assignment -name TOP_LEVEL_ENTITY ULA_Seven_Segments_output
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:13:12  OCTOBER 03, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/vinic/Documents/ULA/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE doubbleDabber.v
+set_global_assignment -name VHDL_FILE bin2bcd.vhd
+set_global_assignment -name BDF_FILE Full_Adder.bdf
+set_global_assignment -name BDF_FILE Seven_bit_Adder.bdf
+set_global_assignment -name BDF_FILE Full_Subtractor.bdf
+set_global_assignment -name BDF_FILE Seven_bit_Subtractor.bdf
+set_global_assignment -name BDF_FILE Subtraction_Overflow.bdf
+set_global_assignment -name BDF_FILE Full_Swap_Subtractor.bdf
+set_global_assignment -name BDF_FILE Seven_bit_Swap_Subtractor.bdf
+set_global_assignment -name BDF_FILE Swap_Subtraction_Overflow.bdf
+set_global_assignment -name BDF_FILE Equal_Comparator.bdf
+set_global_assignment -name BDF_FILE Seven_bit_Equal_Comparator.bdf
+set_global_assignment -name BDF_FILE Seven_bit_Biggest_Comparator.bdf
+set_global_assignment -name BDF_FILE Seven_bit_Xor.bdf
+set_global_assignment -name BDF_FILE Seven_bit_Xnor.bdf
+set_global_assignment -name BDF_FILE Xor_entry.bdf
+set_global_assignment -name BDF_FILE Xnor_entry.bdf
+set_global_assignment -name BDF_FILE Seven_bit_Mux.bdf
+set_global_assignment -name BDF_FILE ULA.bdf
+set_global_assignment -name BDF_FILE And_Mux.bdf
+set_global_assignment -name BDF_FILE And_Bus.bdf
+set_global_assignment -name BDF_FILE Or_Mux.bdf
+set_global_assignment -name BDF_FILE Seven_Segment_Display.bdf
+set_global_assignment -name BDF_FILE BCD_Conversor.bdf
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name BDF_FILE Twos_Complement.bdf
+set_global_assignment -name BDF_FILE And_Eleven_bit.bdf
+set_global_assignment -name BDF_FILE And_Mux_BCD.bdf
+set_global_assignment -name BDF_FILE Or_Mux_BCD.bdf
+set_global_assignment -name BDF_FILE Mux_BCD.bdf
+set_global_assignment -name BDF_FILE Coversor_Seven_Segments.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform6.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform7.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform8.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform9.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform10.vwf
+set_global_assignment -name BDF_FILE Led.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_global_assignment -name BDF_FILE Display_Signal.bdf
+set_global_assignment -name BDF_FILE ULA_Seven_Segments_output.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_T28 -to A[6]
+set_location_assignment PIN_U21 -to A[5]
+set_location_assignment PIN_AB30 -to A[4]
+set_location_assignment PIN_C2 -to A[3]
+set_location_assignment PIN_V21 -to A[2]
+set_location_assignment PIN_U30 -to A[1]
+set_location_assignment PIN_V28 -to A[0]
+set_location_assignment PIN_N25 -to B[6]
+set_location_assignment PIN_M26 -to B[5]
+set_location_assignment PIN_N26 -to B[4]
+set_location_assignment PIN_R26 -to B[3]
+set_location_assignment PIN_R29 -to B[2]
+set_location_assignment PIN_P30 -to B[1]
+set_location_assignment PIN_R30 -to B[0]
+set_location_assignment PIN_C30 -to option[2]
+set_location_assignment PIN_K25 -to option[1]
+set_location_assignment PIN_J26 -to option[0]
+set_location_assignment PIN_G8 -to af
+set_location_assignment PIN_E12 -to bt
+set_location_assignment PIN_G13 -to cs
+set_location_assignment PIN_G11 -to ct
+set_location_assignment PIN_F11 -to dt
+set_location_assignment PIN_F16 -to et
+set_location_assignment PIN_D16 -to ft
+set_location_assignment PIN_F10 -to gf
+set_location_assignment PIN_F14 -to gt
+set_location_assignment PIN_E15 -to at
+set_location_assignment PIN_G14 -to as
+set_location_assignment PIN_B13 -to bs
+set_location_assignment PIN_F12 -to ds
+set_location_assignment PIN_G12 -to es
+set_location_assignment PIN_J9 -to fs
+set_location_assignment PIN_G10 -to gs
+set_location_assignment PIN_G7 -to bf
+set_location_assignment PIN_F7 -to cf
+set_location_assignment PIN_AG30 -to df
+set_location_assignment PIN_F4 -to ff
+set_location_assignment PIN_F6 -to ef
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
